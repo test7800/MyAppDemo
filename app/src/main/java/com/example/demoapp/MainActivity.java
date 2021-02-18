@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //Master branch code change comment
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TabLayout tabs = findViewById(R.id.tabs);
