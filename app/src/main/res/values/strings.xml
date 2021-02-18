@@ -3,6 +3,6 @@
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
     <string name="dev">dev</string>
+    <string name="devtwo">devtwo</string>
     <string name="master">master</string>
-
 </resources>
