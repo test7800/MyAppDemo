@@ -20,12 +20,11 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        //Master branch code change comment
+        //Complete New dev code
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TabLayout tabs = findViewById(R.id.tabs);
         ViewPager viewPager = findViewById(R.id.view_pager);
-        //New Dev code
         SectionsPagerAdapter adapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
         adapter.addFragment(PlaceholderFragment.newInstance("Page 1"));
         adapter.addFragment(PlaceholderFragment.newInstance("Page 2"));
