@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TabLayout tabs = findViewById(R.id.tabs);
         ViewPager viewPager = findViewById(R.id.view_pager);
-        //New Feature Added in Dev Code Comment
+        //Dev code
         SectionsPagerAdapter adapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
         adapter.addFragment(PlaceholderFragment.newInstance("Page 1"));
         adapter.addFragment(PlaceholderFragment.newInstance("Page 2"));
